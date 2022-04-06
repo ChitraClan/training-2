@@ -1,0 +1,23 @@
+image {
+  background-color: #e9f8fd;
+  background-size: 100%;
+  position: relative;
+  opacity: 1;
+  height: 100vh;
+  width: 100%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-image:after {
+  content: "";
+  position: absolute;
+  background-image: url("../Assets/Website\ banner-07.svg");
+  background-repeat: no-repeat;
+    background-size: cover;
+    left: -100px;
+    top: -250px;
+    width: 68%;
+    height: 81%;
+    z-index: 0;
