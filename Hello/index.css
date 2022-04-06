@@ -15,9 +15,10 @@ image {
   position: absolute;
   background-image: url("../Assets/Website\ banner-07.svg");
   background-repeat: no-repeat;
-    background-size: cover;
-    left: -100px;
-    top: -250px;
-    width: 68%;
-    height: 81%;
-    z-index: 0;
+  background-size: cover;
+  left: -100px;
+  top: -250px;
+  width: 68%;
+  height: 81%;
+  z-index: 0;
+}
